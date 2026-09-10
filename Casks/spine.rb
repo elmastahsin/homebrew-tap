@@ -1,6 +1,6 @@
 cask "spine" do
-  version "0.1.0"
-  sha256 "15e5cff837515a7bb75746bd7406605c673b989ad399b255cc4d98502b053994"
+  version "0.1.1"
+  sha256 "0d694a056be080ffc36c6a513d120a57029df024cc0dbe546b71a146d33cd6ac"
 
   url "https://github.com/elmastahsin/spine/releases/download/v#{version}/Spine.app.zip"
   name "Spine"
