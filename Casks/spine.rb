@@ -7,7 +7,7 @@ cask "spine" do
   desc "Menu bar posture tracker using AirPods head motion sensors"
   homepage "https://github.com/elmastahsin/spine"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Spine.app"
 
