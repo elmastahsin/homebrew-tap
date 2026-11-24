@@ -1,12 +1,13 @@
 cask "focusblocker" do
-  version "1.0.0"
-  sha256 "f4a0337ebc86d112d548eba88a4b22dda9b3154532d4837b315d0b62634cedf6"
+  version "1.2.0"
+  sha256 "37cc295788a439107b42fc107c5a8f1cc036adafc508dcaa6b583151fe96763d"
 
   url "https://github.com/elmastahsin/focusblocker/releases/download/v#{version}/FocusBlocker.app.zip"
   name "FocusBlocker"
   desc "Menu bar app that blocks distracting websites and apps for a set time"
   homepage "https://github.com/elmastahsin/focusblocker"
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "FocusBlocker.app"
